@@ -1,3 +1,13 @@
+<h1>Create a new user</h1>
+
+<% if @user.errors.any? %>
+    <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+        <% end %>
+    </ul>
+<% end %>
+
 <% if false %>
 <div>
     <h1>Sign in page</h1>
@@ -36,8 +46,8 @@
 <% end %>
 
 <%= form_for @user do |f| %>
-    Username:<br><%= f.text_field :username, value: "Name" %><br>
-    Email:<br><%= f.text_field :email, placeholder: "example@example.com" %><br>
+    Username:<br><%= f.text_field :username %><br>
+    Email:<br><%= f.text_field :email %><br>
     Password:<br><%= f.password_field :password %><br>
     <%= f.submit %>
 <% end %>
