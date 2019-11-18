@@ -1,24 +1,14 @@
-# README
+# Microverse Project - Re-former
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+In this project we used three different approaches to create forms: HTML tags and Ruby on Rails helpers *form_tag* and *form_for*. The project description can be found at [The Odin Project]("https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms").
 
-* Ruby version
+## Used
 
-* System dependencies
+* Ruby on Rails 6.0.0
 
-* Configuration
+## Authors
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [Bruna Genz]("https://github.com/bruna-genz").
+* [Nicolás Mariño]("https://github.com/nicolasmarino99").
